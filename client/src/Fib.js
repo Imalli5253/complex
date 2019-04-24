@@ -52,9 +52,7 @@ class Fib extends Component {
     return entries;
   }
 
-  
-render() 
-{
+  render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
